@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <script src="./js/bundle.js"></script>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="task in tasks">{{ task }}</li>
+        </ul>
+        <form>
+            <label for="new-item">Add task</label>
+            <input type="text" id="new-item"/>
+            <input type="submit"/>
+        </form>
+
+    </div>
+    
+</body>
+</html>
