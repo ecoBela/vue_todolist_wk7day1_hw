@@ -5,8 +5,14 @@ document.addEventListener('DOMContentLoaded', () => {
         el: "#app",
         data: {
             tasks: ["Clean kitchen", "Clear toys", "Do laundry"],
+            newTask: ""
         },
-        methods: {}
+        methods: {
+            saveNewTask: function(){
+                this.tasks.push(this.newTask);
+                this.newItem = "";
+            }
+        }
     });
 });
 
