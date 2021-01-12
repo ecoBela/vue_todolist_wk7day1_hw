@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(to right, rgb(45, 100, 133), lightblue);
+}
+#app {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(to left, rgb(204, 186, 207), rgb(154, 143, 180));
+    
+  }
+
+#app > ul > li{
+    padding: 5px;
+}
+
+
+  
